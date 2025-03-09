@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": "minecraft:stick",
+    "A": "minecraft:iron_axe",
+    "P": "minecraft:iron_pickaxe",
+    "S": "minecraft:iron_shovel"
+  },
+  "pattern": [
+    "PSA",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "count": 1,
+    "id": "onlypaxel:iron_paxel"
+  }
+}
