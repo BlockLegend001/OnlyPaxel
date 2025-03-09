@@ -1,0 +1,25 @@
+[05mar2025 15:03:20.987] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forge_userdev_data, --assetIndex, 17, --assetsDir, C:\Users\rosar\.gradle\caches\forge_gradle\assets, --gameDir, ., --mod, onlypaxel, --all, --output, D:\Programmazione\Mod\Only Paxel\FORGE\1.21\src\generated\resources, --existing, D:\Programmazione\Mod\Only Paxel\FORGE\1.21\src\main\resources]
+[05mar2025 15:03:20.990] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Amazon.com Inc. OpenJDK 64-Bit Server VM 21.0.5+11-LTS
+[05mar2025 15:03:20.992] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.2.1 starting: java version 21.0.5 by Amazon.com Inc.; OS Windows 11 arch amd64 version 10.0
+[05mar2025 15:03:21.104] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forge_userdev_data
+[05mar2025 15:03:21.207] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=jar:file:///C:/Users/rosar/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.7/8ab114ac385e6dbdad5efafe28aba4df8120915f/mixin-0.8.7.jar!/ Service=ModLauncher Env=UNKNOWN
+[05mar2025 15:03:22.493] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[05mar2025 15:03:23.265] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forge_userdev_data' with arguments [--gameDir, ., --assetsDir, C:\Users\rosar\.gradle\caches\forge_gradle\assets, --assetIndex, 17, --mod, onlypaxel, --all, --output, D:\Programmazione\Mod\Only Paxel\FORGE\1.21\src\generated\resources, --existing, D:\Programmazione\Mod\Only Paxel\FORGE\1.21\src\main\resources]
+[05mar2025 15:03:28.438] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 51.0.33, for MC 1.21 with MCP 20240613.102039
+[05mar2025 15:03:28.438] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v51.0.33 Initialized
+[05mar2025 15:03:28.466] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Opening jdk.naming.dns/com.sun.jndi.dns to java.naming
+[05mar2025 15:03:28.605] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[05mar2025 15:03:28.609] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 2.784 ms
+[05mar2025 15:03:29.090] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [onlypaxel]
+[05mar2025 15:03:29.144] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/rosar/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_official_1.21/forge-1.21-51.0.33_mapped_official_1.21.jar%230!/assets/.mcassetsroot' uses unexpected schema
+[05mar2025 15:03:29.145] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/rosar/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.21-51.0.33_mapped_official_1.21/forge-1.21-51.0.33_mapped_official_1.21.jar%230!/data/.mcassetsroot' uses unexpected schema
+[05mar2025 15:03:29.260] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[05mar2025 15:03:29.535] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 274 ms
+[05mar2025 15:03:29.535] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id onlypaxel
+[05mar2025 15:03:29.546] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id onlypaxel finished after 10 ms
+[05mar2025 15:03:29.546] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id onlypaxel
+[05mar2025 15:03:29.548] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id onlypaxel finished after 1 ms
+[05mar2025 15:03:29.548] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: onlypaxel
+[05mar2025 15:03:29.553] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: onlypaxel finished after 5 ms
+[05mar2025 15:03:29.553] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 293 ms
+[05mar2025 15:03:29.560] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 25, old count: 23, new count: 26, removed stale: 0, written: 2
