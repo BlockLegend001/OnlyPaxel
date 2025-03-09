@@ -1,0 +1,5 @@
+// 1.21	2025-02-12T13:49:58.349313	Tags for minecraft:item mod id onlypaxel
+d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/enchantable/durability.json
+d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/enchantable/mining.json
+d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/enchantable/mining_loot.json
+d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/enchantable/vanishing.json
