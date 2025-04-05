@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "onlypaxel",
+  "version": "${version}",
+  "name": "OnlyPaxel",
+  "description": "A multitool which combines pickaxe, axe and shovel",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/onlypaxel/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.blocklegend001.onlypaxel.client.OnlyPaxelClient"
+    ],
+    "main": [
+      "com.blocklegend001.onlypaxel.OnlyPaxel"
+    ],
+    "fabric-datagen": [
+      "com.blocklegend001.onlypaxel.datagen.DataGenerator"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
