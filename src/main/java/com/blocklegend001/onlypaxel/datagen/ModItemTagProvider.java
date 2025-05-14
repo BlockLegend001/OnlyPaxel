@@ -47,5 +47,29 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.GOLDEN_PAXEL)
                 .add(ModItems.DIAMOND_PAXEL)
                 .add(ModItems.NETHERITE_PAXEL);
+
+        getOrCreateTagBuilder(ItemTags.AXES)
+                .add(ModItems.WOODEN_PAXEL)
+                .add(ModItems.STONE_PAXEL)
+                .add(ModItems.IRON_PAXEL)
+                .add(ModItems.GOLDEN_PAXEL)
+                .add(ModItems.DIAMOND_PAXEL)
+                .add(ModItems.NETHERITE_PAXEL);
+
+        getOrCreateTagBuilder(ItemTags.PICKAXES)
+                .add(ModItems.WOODEN_PAXEL)
+                .add(ModItems.STONE_PAXEL)
+                .add(ModItems.IRON_PAXEL)
+                .add(ModItems.GOLDEN_PAXEL)
+                .add(ModItems.DIAMOND_PAXEL)
+                .add(ModItems.NETHERITE_PAXEL);
+
+        getOrCreateTagBuilder(ItemTags.SHOVELS)
+                .add(ModItems.WOODEN_PAXEL)
+                .add(ModItems.STONE_PAXEL)
+                .add(ModItems.IRON_PAXEL)
+                .add(ModItems.GOLDEN_PAXEL)
+                .add(ModItems.DIAMOND_PAXEL)
+                .add(ModItems.NETHERITE_PAXEL);
     }
 }
