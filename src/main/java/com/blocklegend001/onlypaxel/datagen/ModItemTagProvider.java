@@ -49,5 +49,29 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.GOLDEN_PAXEL.get())
                 .add(ModItems.DIAMOND_PAXEL.get())
                 .add(ModItems.NETHERITE_PAXEL.get());
+
+        tag(ItemTags.AXES)
+                .add(ModItems.WOODEN_PAXEL.get())
+                .add(ModItems.STONE_PAXEL.get())
+                .add(ModItems.IRON_PAXEL.get())
+                .add(ModItems.GOLDEN_PAXEL.get())
+                .add(ModItems.DIAMOND_PAXEL.get())
+                .add(ModItems.NETHERITE_PAXEL.get());
+
+        tag(ItemTags.PICKAXES)
+                .add(ModItems.WOODEN_PAXEL.get())
+                .add(ModItems.STONE_PAXEL.get())
+                .add(ModItems.IRON_PAXEL.get())
+                .add(ModItems.GOLDEN_PAXEL.get())
+                .add(ModItems.DIAMOND_PAXEL.get())
+                .add(ModItems.NETHERITE_PAXEL.get());
+
+        tag(ItemTags.SHOVELS)
+                .add(ModItems.WOODEN_PAXEL.get())
+                .add(ModItems.STONE_PAXEL.get())
+                .add(ModItems.IRON_PAXEL.get())
+                .add(ModItems.GOLDEN_PAXEL.get())
+                .add(ModItems.DIAMOND_PAXEL.get())
+                .add(ModItems.NETHERITE_PAXEL.get());
     }
 }

@@ -1,1 +1,1 @@
-- Added REI compatibility
+Added more tags
