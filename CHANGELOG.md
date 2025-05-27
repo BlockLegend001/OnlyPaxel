@@ -1,1 +1,1 @@
-Added more tags
+- Fixed a bug where some blocks could not be broken with paxel

@@ -34,10 +34,6 @@ public class Paxel extends Item {
         this.tier = tier;
     }
 
-    public ToolMaterial getTier() {
-        return tier;
-    }
-
     @Override
     public float getMiningSpeed(ItemStack stack, BlockState state) {
         stack.get(DataComponentTypes.TOOL);
@@ -46,7 +42,7 @@ public class Paxel extends Item {
 
     @Override
     public boolean canMine(ItemStack stack, BlockState state, World world, BlockPos pos, LivingEntity user) {
-        return state.isIn(paxelMineable);
+        return !state.isToolRequired() || state.isIn(paxelMineable);
     }
 
     private static Settings computeSettings(ToolMaterial tier, TagKey<Block> paxelMineable, float attackDamage, float attackSpeed, Settings settings) {
