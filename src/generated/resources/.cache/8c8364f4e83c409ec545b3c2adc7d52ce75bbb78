@@ -1,0 +1,8 @@
+// 1.21.6	2025-06-29T21:40:27.1981516	Tags for minecraft:item mod id vanilla
+d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/axes.json
+d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/enchantable/durability.json
+d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/enchantable/mining.json
+d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/enchantable/mining_loot.json
+d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/enchantable/vanishing.json
+d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/pickaxes.json
+d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/shovels.json
