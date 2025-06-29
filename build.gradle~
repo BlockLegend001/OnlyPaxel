@@ -118,7 +118,7 @@ publishMods {
     file = remapJar.archiveFile
 
     curseforge {
-        projectId = '1201889'
+        projectId = '1213806'
         accessToken = providers.environmentVariable('CURSEFORGE_TOKEN')
         minecraftVersions.add(minecraft_version)
         clientRequired = true
