@@ -1,5 +1,8 @@
-// 1.21.5	2025-04-05T12:20:49.8395212	Tags for minecraft:item mod id onlypaxel
+// 1.21.5	2025-05-14T12:13:11.4179105	Tags for minecraft:item mod id onlypaxel
+d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/axes.json
 d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/enchantable/durability.json
 d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/enchantable/mining.json
 d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/enchantable/mining_loot.json
 d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/enchantable/vanishing.json
+d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/pickaxes.json
+d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/shovels.json
