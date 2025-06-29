@@ -26,19 +26,15 @@ public class Paxel extends Item {
     private static final Map<Block, BlockState> FLATTENABLES = Shovel.getFlattenables();
     private static final Map<Block, Block> STRIPPABLES = Axe.getStrippables();
     public static TagKey<Block> paxelMineable = ModTags.Blocks.PAXEL_MINEABLE;
-//    private final ToolMaterial tier;
+    private final ToolMaterial tier;
 
     public Paxel(ToolMaterial tier, float attackDamage, float attackSpeed, Settings settings) {
         super(computeSettings(tier, ModTags.Blocks.PAXEL_MINEABLE, attackDamage, attackSpeed, settings));
         paxelMineable = ModTags.Blocks.PAXEL_MINEABLE;
-//        this.tier = tier;
+        this.tier = tier;
     }
 
-//    public ToolMaterial getTier() {
-//        return tier;
-//    }
-//
-//    @Override
+    @Override
     public float getMiningSpeed(ItemStack stack, BlockState state) {
         stack.get(DataComponentTypes.TOOL);
         return state.isIn(paxelMineable) ? tier.speed() : 1.0F;
