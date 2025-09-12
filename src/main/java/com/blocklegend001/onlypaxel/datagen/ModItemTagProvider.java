@@ -7,6 +7,7 @@ import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.level.block.Block;
+import net.neoforged.neoforge.common.Tags;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 
 import javax.annotation.Nullable;
@@ -69,6 +70,38 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.NETHERITE_PAXEL.get());
 
         tag(ItemTags.SHOVELS)
+                .add(ModItems.WOODEN_PAXEL.get())
+                .add(ModItems.STONE_PAXEL.get())
+                .add(ModItems.IRON_PAXEL.get())
+                .add(ModItems.GOLDEN_PAXEL.get())
+                .add(ModItems.DIAMOND_PAXEL.get())
+                .add(ModItems.NETHERITE_PAXEL.get());
+
+        tag(ItemTags.CLUSTER_MAX_HARVESTABLES)
+                .add(ModItems.WOODEN_PAXEL.get())
+                .add(ModItems.STONE_PAXEL.get())
+                .add(ModItems.IRON_PAXEL.get())
+                .add(ModItems.GOLDEN_PAXEL.get())
+                .add(ModItems.DIAMOND_PAXEL.get())
+                .add(ModItems.NETHERITE_PAXEL.get());
+
+        tag(ItemTags.BREAKS_DECORATED_POTS)
+                .add(ModItems.WOODEN_PAXEL.get())
+                .add(ModItems.STONE_PAXEL.get())
+                .add(ModItems.IRON_PAXEL.get())
+                .add(ModItems.GOLDEN_PAXEL.get())
+                .add(ModItems.DIAMOND_PAXEL.get())
+                .add(ModItems.NETHERITE_PAXEL.get());
+
+        tag(Tags.Items.TOOLS)
+                .add(ModItems.WOODEN_PAXEL.get())
+                .add(ModItems.STONE_PAXEL.get())
+                .add(ModItems.IRON_PAXEL.get())
+                .add(ModItems.GOLDEN_PAXEL.get())
+                .add(ModItems.DIAMOND_PAXEL.get())
+                .add(ModItems.NETHERITE_PAXEL.get());
+
+        tag(Tags.Items.MINING_TOOL_TOOLS)
                 .add(ModItems.WOODEN_PAXEL.get())
                 .add(ModItems.STONE_PAXEL.get())
                 .add(ModItems.IRON_PAXEL.get())
