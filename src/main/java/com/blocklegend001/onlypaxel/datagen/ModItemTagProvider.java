@@ -100,5 +100,13 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModItems.GOLDEN_PAXEL.get())
                 .add(ModItems.DIAMOND_PAXEL.get())
                 .add(ModItems.NETHERITE_PAXEL.get());
+
+        tag(Tags.Items.MINING_TOOL_TOOLS)
+                .add(ModItems.WOODEN_PAXEL.get())
+                .add(ModItems.STONE_PAXEL.get())
+                .add(ModItems.IRON_PAXEL.get())
+                .add(ModItems.GOLDEN_PAXEL.get())
+                .add(ModItems.DIAMOND_PAXEL.get())
+                .add(ModItems.NETHERITE_PAXEL.get());
     }
 }
