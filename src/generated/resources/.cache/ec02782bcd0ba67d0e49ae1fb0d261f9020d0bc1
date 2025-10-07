@@ -1,5 +1,9 @@
-// 1.21.4	2025-05-14T13:35:25.5587213	Tags for minecraft:item mod id onlypaxel
+// 1.21.4	2025-09-12T22:35:50.9833279	Tags for minecraft:item mod id onlypaxel
+d664cc2885eee28ce981ae0c09680f2a25a58170 data/c/tags/item/tools.json
+d664cc2885eee28ce981ae0c09680f2a25a58170 data/c/tags/item/tools/mining_tool.json
 d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/axes.json
+d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/breaks_decorated_pots.json
+d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/cluster_max_harvestables.json
 d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/enchantable/durability.json
 d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/enchantable/mining.json
 d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/enchantable/mining_loot.json
