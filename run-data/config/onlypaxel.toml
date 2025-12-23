@@ -1,0 +1,18 @@
+#Durability of the wooden paxel
+#Range: > 0
+DurabilityWoodenPaxel = 177
+#Durability of the diamond paxel
+#Range: > 0
+DurabilityDiamondPaxel = 4683
+#Durability of the stone paxel
+#Range: > 0
+DurabilityStonePaxel = 393
+#Durability of the netherite paxel
+#Range: > 0
+DurabilityNetheritePaxel = 6093
+#Durability of the iron paxel
+#Range: > 0
+DurabilityIronPaxel = 750
+#Durability of the golden paxel
+#Range: > 0
+DurabilityGoldenPaxel = 96
