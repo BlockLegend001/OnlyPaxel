@@ -19,6 +19,10 @@ public class ModItems {
             new Paxel(ModToolMaterials.STONE_PAXEL, 1, -2.8F, new Item.Settings()
                     .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(OnlyPaxel.MODID, "stone_paxel")))));
 
+    public static final Item COPPER_PAXEL = registerItem("copper_paxel",
+            new Paxel(ModToolMaterials.COPPER_PAXEL, 1, -2.8F, new Item.Settings()
+                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(OnlyPaxel.MODID, "copper_paxel")))));
+
     public static final Item IRON_PAXEL = registerItem("iron_paxel",
             new Paxel(ModToolMaterials.IRON_PAXEL, 1, -2.8F, new Item.Settings()
                     .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(OnlyPaxel.MODID, "iron_paxel")))));
