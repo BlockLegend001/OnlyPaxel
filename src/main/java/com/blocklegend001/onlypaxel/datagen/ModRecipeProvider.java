@@ -57,6 +57,17 @@ public class ModRecipeProvider extends RecipeProvider {
                 .unlockedBy(getHasName(Items.COBBLESTONE), has(Items.COBBLESTONE))
                 .save(this.output);
 
+        shaped(RecipeCategory.TOOLS, ModItems.COPPER_PAXEL.get())
+                .pattern("PSA")
+                .pattern(" # ")
+                .pattern(" # ")
+                .define('P', Items.COPPER_PICKAXE)
+                .define('S', Items.COPPER_SHOVEL)
+                .define('A', Items.COPPER_AXE)
+                .define('#', Items.STICK)
+                .unlockedBy(getHasName(Items.COPPER_INGOT), has(Items.COPPER_INGOT))
+                .save(this.output);
+
         shaped(RecipeCategory.TOOLS, ModItems.IRON_PAXEL.get())
                 .pattern("PSA")
                 .pattern(" # ")
