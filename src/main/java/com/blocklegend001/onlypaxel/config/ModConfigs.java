@@ -9,6 +9,7 @@ public class ModConfigs {
 
     public static int DurabilityWoodenPaxel;
     public static int DurabilityStonePaxel;
+    public static int DurabilityCopperPaxel;
     public static int DurabilityIronPaxel;
     public static int DurabilityGoldenPaxel;
     public static int DurabilityDiamondPaxel;
@@ -26,6 +27,7 @@ public class ModConfigs {
     private static void createConfigs() {
         configs.addKeyValuePair(new Pair<>("DurabilityWoodenPaxel", 177), "Durability of Wooden Paxel");
         configs.addKeyValuePair(new Pair<>("DurabilityStonePaxel", 393), "Durability of Stone Paxel");
+        configs.addKeyValuePair(new Pair<>("DurabilityCopperPaxel", 570), "Durability of Copper Paxel");
         configs.addKeyValuePair(new Pair<>("DurabilityIronPaxel", 750), "Durability of Iron Paxel");
         configs.addKeyValuePair(new Pair<>("DurabilityGoldenPaxel", 96), "Durability of Golden Paxel");
         configs.addKeyValuePair(new Pair<>("DurabilityDiamondPaxel", 4683), "Durability of Diamond Paxel");
@@ -35,6 +37,7 @@ public class ModConfigs {
     private static void assignConfigs() {
         DurabilityWoodenPaxel = CONFIG.getOrDefault("DurabilityWoodenPaxel", 177);
         DurabilityStonePaxel = CONFIG.getOrDefault("DurabilityStonePaxel", 393);
+        DurabilityCopperPaxel = CONFIG.getOrDefault("DurabilityCopperPaxel", 570);
         DurabilityIronPaxel = CONFIG.getOrDefault("DurabilityIronPaxel", 750);
         DurabilityGoldenPaxel = CONFIG.getOrDefault("DurabilityGoldenPaxel", 96);
         DurabilityDiamondPaxel = CONFIG.getOrDefault("DurabilityDiamondPaxel", 4683);

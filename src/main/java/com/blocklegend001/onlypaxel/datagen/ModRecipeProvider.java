@@ -48,6 +48,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .criterion(hasItem(Items.COBBLESTONE), conditionsFromItem(Items.COBBLESTONE))
                         .offerTo(exporter);
 
+                createShaped(RecipeCategory.TOOLS, ModItems.COPPER_PAXEL)
+                        .pattern("PSA")
+                        .pattern(" # ")
+                        .pattern(" # ")
+                        .input('P', Items.COPPER_PICKAXE)
+                        .input('S', Items.COPPER_SHOVEL)
+                        .input('A', Items.COPPER_AXE)
+                        .input('#', Items.STICK)
+                        .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                        .offerTo(exporter);
+
                 createShaped(RecipeCategory.TOOLS, ModItems.IRON_PAXEL)
                         .pattern("PSA")
                         .pattern(" # ")
