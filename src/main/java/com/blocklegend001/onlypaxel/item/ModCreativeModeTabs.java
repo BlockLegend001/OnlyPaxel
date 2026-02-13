@@ -19,6 +19,7 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.WOODEN_PAXEL.get());
                         pOutput.accept(ModItems.STONE_PAXEL.get());
+                        pOutput.accept(ModItems.COPPER_PAXEL.get());
                         pOutput.accept(ModItems.IRON_PAXEL.get());
                         pOutput.accept(ModItems.GOLDEN_PAXEL.get());
                         pOutput.accept(ModItems.DIAMOND_PAXEL.get());

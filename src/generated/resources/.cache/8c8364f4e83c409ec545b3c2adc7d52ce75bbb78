@@ -1,12 +1,12 @@
-// 1.21.11	2025-12-23T18:36:33.3524361	Tags for minecraft:item mod id vanilla
-d664cc2885eee28ce981ae0c09680f2a25a58170 data/c/tags/item/tools.json
-d664cc2885eee28ce981ae0c09680f2a25a58170 data/c/tags/item/tools/mining_tool.json
-d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/axes.json
-d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/breaks_decorated_pots.json
-d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/cluster_max_harvestables.json
-d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/enchantable/durability.json
-d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/enchantable/mining.json
-d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/enchantable/mining_loot.json
-d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/enchantable/vanishing.json
-d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/pickaxes.json
-d664cc2885eee28ce981ae0c09680f2a25a58170 data/minecraft/tags/item/shovels.json
+// 1.21.11	2026-02-13T17:19:45.5648863	Tags for minecraft:item mod id vanilla
+948dce28b4668cc0997f59cd926aa361a1d299b9 data/c/tags/item/tools.json
+948dce28b4668cc0997f59cd926aa361a1d299b9 data/c/tags/item/tools/mining_tool.json
+948dce28b4668cc0997f59cd926aa361a1d299b9 data/minecraft/tags/item/axes.json
+948dce28b4668cc0997f59cd926aa361a1d299b9 data/minecraft/tags/item/breaks_decorated_pots.json
+948dce28b4668cc0997f59cd926aa361a1d299b9 data/minecraft/tags/item/cluster_max_harvestables.json
+948dce28b4668cc0997f59cd926aa361a1d299b9 data/minecraft/tags/item/enchantable/durability.json
+948dce28b4668cc0997f59cd926aa361a1d299b9 data/minecraft/tags/item/enchantable/mining.json
+948dce28b4668cc0997f59cd926aa361a1d299b9 data/minecraft/tags/item/enchantable/mining_loot.json
+948dce28b4668cc0997f59cd926aa361a1d299b9 data/minecraft/tags/item/enchantable/vanishing.json
+948dce28b4668cc0997f59cd926aa361a1d299b9 data/minecraft/tags/item/pickaxes.json
+948dce28b4668cc0997f59cd926aa361a1d299b9 data/minecraft/tags/item/shovels.json
