@@ -16,3 +16,6 @@ DurabilityIronPaxel = 750
 #Durability of the golden paxel
 #Range: > 0
 DurabilityGoldenPaxel = 96
+#Durability of the copper paxel
+#Range: > 0
+DurabilityCopperPaxel = 570

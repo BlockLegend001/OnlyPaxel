@@ -16,6 +16,10 @@ public class ModConfigs {
             .comment("Durability of the stone paxel")
             .defineInRange("DurabilityStonePaxel", 393, 0, Integer.MAX_VALUE);
 
+    private static final ForgeConfigSpec.IntValue DurabilityCopperPaxel = mycfg
+            .comment("Durability of the copper paxel")
+            .defineInRange("DurabilityCopperPaxel", 570, 0, Integer.MAX_VALUE);
+
     private static final ForgeConfigSpec.IntValue DurabilityIronPaxel = mycfg
             .comment("Durability of the iron paxel")
             .defineInRange("DurabilityIronPaxel", 750, 0, Integer.MAX_VALUE);
@@ -36,6 +40,7 @@ public class ModConfigs {
 
     public static int durabilityWoodenPaxel;
     public static int durabilityStonePaxel;
+    public static int durabilityCopperPaxel;
     public static int durabilityIronPaxel;
     public static int durabilityGoldenPaxel;
     public static int durabilityDiamondPaxel;
@@ -48,6 +53,7 @@ public class ModConfigs {
 
         durabilityWoodenPaxel = DurabilityWoodenPaxel.get();
         durabilityStonePaxel = DurabilityStonePaxel.get();
+        durabilityCopperPaxel = DurabilityCopperPaxel.get();
         durabilityIronPaxel = DurabilityIronPaxel.get();
         durabilityGoldenPaxel = DurabilityGoldenPaxel.get();
         durabilityDiamondPaxel = DurabilityDiamondPaxel.get();
