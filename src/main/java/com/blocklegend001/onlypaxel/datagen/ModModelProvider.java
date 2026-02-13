@@ -36,6 +36,7 @@ public class ModModelProvider extends ModelProvider {
     protected void registerModels(BlockModelGenerators blockModelGenerators, ItemModelGenerators itemModelGenerators) {
         itemModel(itemModelGenerators, ModItems.WOODEN_PAXEL.get());
         itemModel(itemModelGenerators, ModItems.STONE_PAXEL.get());
+        itemModel(itemModelGenerators, ModItems.COPPER_PAXEL.get());
         itemModel(itemModelGenerators, ModItems.IRON_PAXEL.get());
         itemModel(itemModelGenerators, ModItems.GOLDEN_PAXEL.get());
         itemModel(itemModelGenerators, ModItems.DIAMOND_PAXEL.get());
