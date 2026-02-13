@@ -13,6 +13,9 @@ public class ModToolMaterials {
     public static final ToolMaterial STONE_PAXEL = new ToolMaterial(BlockTags.INCORRECT_FOR_STONE_TOOL,
             ModConfigs.DurabilityStonePaxel, 4.0F, 6.0F, 5, ItemTags.STONE_TOOL_MATERIALS);
 
+    public static final ToolMaterial COPPER_PAXEL = new ToolMaterial(BlockTags.INCORRECT_FOR_COPPER_TOOL,
+            ModConfigs.DurabilityCopperPaxel, 5.0F, 6.5F, 13, ItemTags.COPPER_TOOL_MATERIALS);
+
     public static final ToolMaterial IRON_PAXEL = new ToolMaterial(BlockTags.INCORRECT_FOR_IRON_TOOL,
             ModConfigs.DurabilityIronPaxel, 6.0F, 7.0F, 14, ItemTags.IRON_TOOL_MATERIALS);
 

@@ -1,4 +1,5 @@
 // 1.21.9	-999999999-01-01T00:00:00	OnlyPaxel/OnlyPaxel Recipes
+69144d68756b1b9ba36b681f6af47bde2607b46f data/onlypaxel/advancement/recipes/tools/copper_paxel.json
 404d3c9c81f26ca640b30d5f48f4c4304808ed4a data/onlypaxel/advancement/recipes/tools/diamond_paxel.json
 c4329f310dfa6d7bc37783dbafbc4214d700ec68 data/onlypaxel/advancement/recipes/tools/golden_paxel.json
 6a03aa51cd44d30509fac9bf90a567aaa966b047 data/onlypaxel/advancement/recipes/tools/iron_paxel.json
@@ -6,6 +7,7 @@ c4329f310dfa6d7bc37783dbafbc4214d700ec68 data/onlypaxel/advancement/recipes/tool
 25db69a80e29948ca76ef2c6325609f70ebc2b40 data/onlypaxel/advancement/recipes/tools/smithing_netherite_paxel.json
 f46eb4ca62aebb2de0b752b9ba5c31f9f5294d51 data/onlypaxel/advancement/recipes/tools/stone_paxel.json
 084847746d61ed000f3390853f1893d5cd9f7998 data/onlypaxel/advancement/recipes/tools/wooden_paxel.json
+8b75ced0ab3815bf48bd4518fb8b753c5b216944 data/onlypaxel/recipe/copper_paxel.json
 762c0b50ff481a240c780948045bdb74e9fbc2e7 data/onlypaxel/recipe/diamond_paxel.json
 4d1e7110023cb349c4378f423acc5d1b66b55419 data/onlypaxel/recipe/golden_paxel.json
 7573df8fa86ae3bca8eb9e3aa1051f7a7f6d542d data/onlypaxel/recipe/iron_paxel.json

@@ -17,6 +17,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.WOODEN_PAXEL);
                         entries.add(ModItems.STONE_PAXEL);
+                        entries.add(ModItems.COPPER_PAXEL);
                         entries.add(ModItems.IRON_PAXEL);
                         entries.add(ModItems.GOLDEN_PAXEL);
                         entries.add(ModItems.DIAMOND_PAXEL);
