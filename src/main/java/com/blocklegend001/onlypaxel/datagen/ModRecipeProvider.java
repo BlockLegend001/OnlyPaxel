@@ -4,7 +4,10 @@ import com.blocklegend001.onlypaxel.OnlyPaxel;
 import com.blocklegend001.onlypaxel.item.ModItems;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
-import net.minecraft.data.recipes.*;
+import net.minecraft.data.recipes.RecipeCategory;
+import net.minecraft.data.recipes.RecipeOutput;
+import net.minecraft.data.recipes.RecipeProvider;
+import net.minecraft.data.recipes.SmithingTransformRecipeBuilder;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
@@ -55,6 +58,17 @@ public class ModRecipeProvider extends RecipeProvider {
                 .define('A', Items.STONE_AXE)
                 .define('#', Items.STICK)
                 .unlockedBy(getHasName(Items.COBBLESTONE), has(Items.COBBLESTONE))
+                .save(this.output);
+
+        shaped(RecipeCategory.TOOLS, ModItems.COPPER_PAXEL.get())
+                .pattern("PSA")
+                .pattern(" # ")
+                .pattern(" # ")
+                .define('P', Items.COPPER_PICKAXE)
+                .define('S', Items.COPPER_SHOVEL)
+                .define('A', Items.COPPER_AXE)
+                .define('#', Items.STICK)
+                .unlockedBy(getHasName(Items.COPPER_INGOT), has(Items.COPPER_INGOT))
                 .save(this.output);
 
         shaped(RecipeCategory.TOOLS, ModItems.IRON_PAXEL.get())

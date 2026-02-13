@@ -1,6 +1,5 @@
 package com.blocklegend001.onlypaxel.datagen;
 
-import com.blocklegend001.onlypaxel.OnlyPaxel;
 import com.blocklegend001.onlypaxel.item.ModItems;
 import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.client.data.models.ItemModelGenerators;
@@ -14,7 +13,6 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
-import net.neoforged.neoforge.registries.DeferredItem;
 
 import java.util.Collections;
 
@@ -27,6 +25,7 @@ public class ModModelProvider extends ModelProvider {
     protected void registerModels(BlockModelGenerators blockModels, ItemModelGenerators itemModels) {
         itemModel(itemModels, ModItems.WOODEN_PAXEL.get());
         itemModel(itemModels, ModItems.STONE_PAXEL.get());
+        itemModel(itemModels, ModItems.COPPER_PAXEL.get());
         itemModel(itemModels, ModItems.IRON_PAXEL.get());
         itemModel(itemModels, ModItems.GOLDEN_PAXEL.get());
         itemModel(itemModels, ModItems.DIAMOND_PAXEL.get());

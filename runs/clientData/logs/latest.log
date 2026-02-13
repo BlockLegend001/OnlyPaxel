@@ -1,0 +1,41 @@
+[13feb2026 20:59:25.486] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 115ms
+[13feb2026 20:59:25.497] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.21 (CLIENT in DEV)
+[13feb2026 20:59:25.497] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: D:\Programmazione\Mod\Only Paxel\NEOFORGE\1.21.10\runs\clientData
+[13feb2026 20:59:25.530] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 0 early service jars (out of 0) in 2ms
+[13feb2026 20:59:25.531] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Not loading early display in headless mode.
+[13feb2026 20:59:25.576] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Detected a joined NeoForge and Minecraft configuration. Applying filtering...
+[13feb2026 20:59:25.656] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator/CORE]: Got mod coordinates 1.21.10%%D:\Programmazione\Mod\Only Paxel\NEOFORGE\1.21.10\build\resources\main;1.21.10%%D:\Programmazione\Mod\Only Paxel\NEOFORGE\1.21.10\build\classes\java\main from env
+[13feb2026 20:59:25.805] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using jar(C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar)
+[13feb2026 20:59:25.805] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[13feb2026 20:59:25.808] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Minecraft 1.21.10 (minecraft)
+		NeoForge 21.10.17-beta (neoforge)
+		OnlyPaxel 1.21.10-0.2 (onlypaxel)
+[13feb2026 20:59:26.024] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/rosar/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/80fc3a9f592673cea87f4cd702f87991c6c9fe4d/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=CLIENT
+[13feb2026 20:59:26.080] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
+[13feb2026 20:59:26.081] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - .cache/jij/51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1/net.neoforged.neoforge-coremods-21.10.17-beta.jar
+[13feb2026 20:59:26.230] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
+ - minecraft (composite(jar(D:\Programmazione\Mod\Only Paxel\NEOFORGE\1.21.10\.gradle\repositories\ng_dummy_ng\net\minecraft\client\1.21.10\client-1.21.10-client-extra.jar), filtered(jar(D:\Programmazione\Mod\Only Paxel\NEOFORGE\1.21.10\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.10.17-beta\neoforge-21.10.17-beta.jar))))
+ - mixinextras.neoforge (jar(C:\Users\rosar\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.0\d734b83ce6542bb70ea31755c1595b88992dbe65\mixinextras-neoforge-0.5.0.jar))
+ - neoforge (composite(filtered(jar(D:\Programmazione\Mod\Only Paxel\NEOFORGE\1.21.10\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.10.17-beta\neoforge-21.10.17-beta.jar))))
+ - net.neoforged.fml.generated (empty(VirtualJar\net.neoforged.fml.generated))
+ - onlypaxel (composite(folder(D:\Programmazione\Mod\Only Paxel\NEOFORGE\1.21.10\build\resources\main), folder(D:\Programmazione\Mod\Only Paxel\NEOFORGE\1.21.10\build\classes\java\main)))
+[13feb2026 20:59:26.249] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 30ms
+[13feb2026 20:59:26.677] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[13feb2026 20:59:31.063] [main/INFO] [net.neoforged.neoforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [onlypaxel]
+[13feb2026 20:59:31.104] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.10.17-beta, for MC 1.21.10
+[13feb2026 20:59:31.769] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: OnlyPaxel Recipe
+[13feb2026 20:59:31.810] [main/INFO] [net.minecraft.data.DataGenerator/]: OnlyPaxel Recipe finished after 40 ms
+[13feb2026 20:59:31.811] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id onlypaxel
+[13feb2026 20:59:31.817] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id onlypaxel finished after 6 ms
+[13feb2026 20:59:31.817] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id vanilla
+[13feb2026 20:59:31.823] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id vanilla finished after 6 ms
+[13feb2026 20:59:31.823] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Model Definitions - onlypaxel
+[13feb2026 20:59:31.872] [main/INFO] [net.minecraft.data.DataGenerator/]: Model Definitions - onlypaxel finished after 48 ms
+[13feb2026 20:59:31.872] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 102 ms
+[13feb2026 20:59:31.881] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 42, old count: 0, new count: 43, removed stale: 0, written: 42
+[13feb2026 20:59:31.881] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Closing FML Loader 3aa0a0a
+[13feb2026 20:59:31.881] [main/INFO] [net.neoforged.fml.ModLoader/]: Clearing ModLoader

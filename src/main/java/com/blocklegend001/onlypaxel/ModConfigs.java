@@ -15,6 +15,7 @@ public class ModConfigs {
 
     public static int durabilityWoodenPaxel = 177;
     public static int durabilityStonePaxel = 393;
+    public static int durabilityCopperPaxel = 570;
     public static int durabilityIronPaxel = 750;
     public static int durabilityGoldenPaxel = 96;
     public static int durabilityDiamondPaxel = 4683;
@@ -34,6 +35,7 @@ public class ModConfigs {
 
                 durabilityWoodenPaxel = config.get("durabilityWoodenPaxel").getAsInt();
                 durabilityStonePaxel = config.get("durabilityStonePaxel").getAsInt();
+                durabilityCopperPaxel = config.get("durabilityCopperPaxel").getAsInt();
                 durabilityIronPaxel = config.get("durabilityIronPaxel").getAsInt();
                 durabilityGoldenPaxel = config.get("durabilityGoldenPaxel").getAsInt();
                 durabilityDiamondPaxel = config.get("durabilityDiamondPaxel").getAsInt();
@@ -47,6 +49,7 @@ public class ModConfigs {
     public static void saveConfig() {
         JsonObject config = new JsonObject();
         config.addProperty("durabilityWoodenPaxel", durabilityWoodenPaxel);
+        config.addProperty("durabilityStonePaxel", durabilityStonePaxel);
         config.addProperty("durabilityStonePaxel", durabilityStonePaxel);
         config.addProperty("durabilityIronPaxel", durabilityIronPaxel);
         config.addProperty("durabilityGoldenPaxel", durabilityGoldenPaxel);
