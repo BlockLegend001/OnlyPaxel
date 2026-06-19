@@ -1,0 +1,12 @@
+// 26.1.2	2026-06-19T20:25:27.499508	Tags for minecraft:item mod id vanilla
+948dce28b4668cc0997f59cd926aa361a1d299b9 data/c/tags/item/tools.json
+948dce28b4668cc0997f59cd926aa361a1d299b9 data/c/tags/item/tools/mining_tool.json
+948dce28b4668cc0997f59cd926aa361a1d299b9 data/minecraft/tags/item/axes.json
+948dce28b4668cc0997f59cd926aa361a1d299b9 data/minecraft/tags/item/breaks_decorated_pots.json
+948dce28b4668cc0997f59cd926aa361a1d299b9 data/minecraft/tags/item/cluster_max_harvestables.json
+948dce28b4668cc0997f59cd926aa361a1d299b9 data/minecraft/tags/item/enchantable/durability.json
+948dce28b4668cc0997f59cd926aa361a1d299b9 data/minecraft/tags/item/enchantable/mining.json
+948dce28b4668cc0997f59cd926aa361a1d299b9 data/minecraft/tags/item/enchantable/mining_loot.json
+948dce28b4668cc0997f59cd926aa361a1d299b9 data/minecraft/tags/item/enchantable/vanishing.json
+948dce28b4668cc0997f59cd926aa361a1d299b9 data/minecraft/tags/item/pickaxes.json
+948dce28b4668cc0997f59cd926aa361a1d299b9 data/minecraft/tags/item/shovels.json
