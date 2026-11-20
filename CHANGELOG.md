@@ -1,1 +1,1 @@
-- Added the version 1.20.1
+- Added Hungarian Language
