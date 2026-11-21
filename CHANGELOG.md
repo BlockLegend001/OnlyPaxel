@@ -1,1 +1,1 @@
-- Added more tags
+- Added Hungarian Language
