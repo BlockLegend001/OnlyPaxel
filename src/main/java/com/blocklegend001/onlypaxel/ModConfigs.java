@@ -50,7 +50,7 @@ public class ModConfigs {
         JsonObject config = new JsonObject();
         config.addProperty("durabilityWoodenPaxel", durabilityWoodenPaxel);
         config.addProperty("durabilityStonePaxel", durabilityStonePaxel);
-        config.addProperty("durabilityStonePaxel", durabilityStonePaxel);
+        config.addProperty("durabilityCopperPaxel", durabilityCopperPaxel);
         config.addProperty("durabilityIronPaxel", durabilityIronPaxel);
         config.addProperty("durabilityGoldenPaxel", durabilityGoldenPaxel);
         config.addProperty("durabilityDiamondPaxel", durabilityDiamondPaxel);
