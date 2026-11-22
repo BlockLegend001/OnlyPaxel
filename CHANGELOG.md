@@ -1,1 +1,2 @@
 - Added Hungarian Language
+- Fixed a bug about config
